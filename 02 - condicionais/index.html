@@ -14,23 +14,23 @@
         </header>
         <section>
             <div id="geral">
-                <div class="fuelType">
+                <!--<div class="fuelType">
                     <label for="fuelTypeGas">Gasolina</label>
                     <input type="radio" name="fuelType" id="fuelTypeGas" checked>
                     <label for="fuelTypeAlcohol">Alcool</label>
                     <input type="radio" name="fuelType" id="fuelTypeAlcohol">
-                </div>
+                </div>-->
                 <div class="fuelValue">
                     <label for="fuelValue">Valor do combustivel R$:</label>
-                    <input type="number" name="fuelValue" id="fuelValue" placeholder="5.80">
+                    <input type="number" name="fuelValue" id="fuelValue" placeholder="5.80"  required>
                 </div>
                 <div class="kmForLiter">
                     <label for="kmForLiter">Desempenho KM/L</label>
-                    <input type="number" name="kmForLiter" id="kmForLiter" placeholder="14km/l" maxlength="5">
+                    <input type="number" name="kmForLiter" id="kmForLiter" placeholder="14km/l" maxlength="5" required>
                 </div>
                 <div class="tripDistance">
                     <label for="tripDistance">Distancia da viagem em KM</label>
-                    <input type="number" name="tripDistance" id="tripDistance" placeholder="100km">
+                    <input type="number" name="tripDistance" id="tripDistance" placeholder="100km" required>
                 </div>
                 <div>
                     <input type="submit" value="Calcular" onclick="calculate()">
