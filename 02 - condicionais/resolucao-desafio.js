@@ -30,9 +30,9 @@ let fuelPriceGas = 5.09;
 let fuelPriceAlcohol = 3.79;
 let kmForLiterGas = 14;
 let kmForLiterAlcohol = 9;
-let distanceKm = 1500;
+let distanceKm = 100;
 let tripPrice = '';
-let fuelType = 'Gasolina';
+let fuelType = 'Alcool';
 
 //tripPrice = (distanceKm / kmForLiter) * fuelPriceGas;
 

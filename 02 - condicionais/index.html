@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Consumo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Caluladora de consumo</h1>
+        </header>
+        <section>
+            <div id="geral">
+                <div class="fuelType">
+                    <label for="fuelTypeGas">Gasolina</label>
+                    <input type="radio" name="fuelType" id="fuelTypeGas" checked>
+                    <label for="fuelTypeAlcohol">Alcool</label>
+                    <input type="radio" name="fuelType" id="fuelTypeAlcohol">
+                </div>
+                <div class="fuelValue">
+                    <label for="fuelValue">Valor do combustivel R$:</label>
+                    <input type="number" name="fuelValue" id="fuelValue" placeholder="5.80">
+                </div>
+                <div class="kmForLiter">
+                    <label for="kmForLiter">Desempenho KM/L</label>
+                    <input type="number" name="kmForLiter" id="kmForLiter" placeholder="14km/l" maxlength="5">
+                </div>
+                <div class="tripDistance">
+                    <label for="tripDistance">Distancia da viagem em KM</label>
+                    <input type="number" name="tripDistance" id="tripDistance" placeholder="100km">
+                </div>
+                <div>
+                    <input type="submit" value="Calcular" onclick="calculate()">
+                    <input type="reset" value="Limpar">
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
