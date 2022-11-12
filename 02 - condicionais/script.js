@@ -3,13 +3,13 @@ let fuelPriceGas = document.getElementById('fuelTypeGas').value;
 let kmForLiter = document.getElementById('kmForLiter');
 //let kmForLiterAlcohol = 9;
 let distanceKm = document.getElementById('tripDistance').value;
-//let tripPrice = '';
+let tripPrice = '';
 //let fuelType = document.getElementById('fuelType').value;
 let answer = ''
 
 function calculate(){
 
-      tripPrice = (Number(tripDistance) / Number(kmForLiter)) * fuelPriceGas;
+      tripPrice = (Number(stancetripDi) / Number(kmForLiter)) * fuelPriceGas;
       answer.innerHTML = `O valor gasto com combustivel é ${answer}`
     
   }
