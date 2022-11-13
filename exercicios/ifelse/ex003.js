@@ -15,7 +15,7 @@ acima de duas vezes, preço normal mais 10% de juros*/
 
 //alert(novo_salario)
 
-let price = 875 ;
+/*let price = 875 ;
 let debtDiscount = 0.1
 let moneyPix = 0.15
 let valueWithFees = -0.1
@@ -42,4 +42,20 @@ if(paymentMethod === 'debit' ){
 } else{
     finalPrice =  price - valueCalcWithFees
     console.log (finalPrice)
+}
+
+*/
+
+
+let precoEtiqueta = 100
+let formaDePagamento = 1
+
+if (formaDePagamento === 1 ) {
+    console.log (precoEtiqueta - (precoEtiqueta * 0.1))
+} else if (formaDePagamento === 2) {
+    console.log(precoEtiqueta - (precoEtiqueta * 0.15))
+} else if (formaDePagamento === 3) {
+    console.log(precoEtiqueta)
+}else {
+    console.log (precoEtiqueta + (precoEtiqueta * 0.1))
 }

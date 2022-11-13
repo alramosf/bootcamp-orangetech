@@ -1,6 +1,6 @@
 
 
-let numero = 1;
+let numero = 5;
 let numeroPar = (numero % 2) === 0;
 
 if (numero === 0){
